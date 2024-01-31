@@ -111,3 +111,32 @@ a {
     text-align: center;
     margin-bottom: 1rem;
 }
+
+.languages-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid #1e1f35;
+    border-radius: 10px;
+}
+
+.languages-wrapper ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.languages-wrapper ul li i {
+    color: #b3a8d7;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.languages-wrapper ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
