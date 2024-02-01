@@ -22,7 +22,6 @@ body {
     align-items: center;
     padding: 0 2rem;
     height: 4rem;
-    background-color: var(--dark-Color);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid #1e1f35;
 
@@ -123,6 +122,24 @@ a {
     -ms-transform: scale(1.5);
 }
 
+#js-square:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}
+
+#html5:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}
+
+#css3:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+}
+
 .subtitle {
     color: #b3a8d7;
     font-size: 1.5rem;
@@ -177,4 +194,43 @@ a {
     margin-bottom: 1rem;
     transition: all 0.3s ease;
     cursor: default;
+}
+
+.footer-wrapper {
+    margin-top: 16rem;
+    border-top: 1px solid #1e1f35;
+    padding: 0 2rem;
+    top: 0;
+    left: 0;    
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    display: flex;
+    z-index: 999;
+}
+
+#datetime {
+    color: #b3a8d7;
+}
+
+#datetime:hover {
+    cursor: default;
+}
+
+.right-reserved-text{
+    color: #b3a8d7;
+}
+
+.right-reserved-text:hover{
+    cursor: default;
+}
+
+.right-reserved-name {
+    color: #f5edff;
+}
+
+.right-reserved-name:hover {
+    cursor: default;
+    color: aquamarine;
 }

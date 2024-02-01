@@ -1,7 +1,9 @@
-var typed = new Typed(".animated-title" , {
-    strings: ["Vuththana's", "Pro Dev", "Your Babe"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
-})
+window.onload = function() {
+    setInterval(function(){
+        var date = new Date();
+        var displayDate = date.toLocaleDateString();
+        var displayTime = date.toLocaleTimeString();
+
+        document.getElementById('datetime').innerHTML = displayDate + " " + displayTime;
+    }, 1000); // 1000 milliseconds = 1 second
+}
