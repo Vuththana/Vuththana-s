@@ -15,31 +15,42 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    right: 0;
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
     padding: 0 2rem;
     height: 4rem;
+    background-color: var(--dark-Color);
+    backdrop-filter: blur(10px);
     border-bottom: 1px solid #1e1f35;
+
+}
+
+.goros-profile {
+    display: flex;
+    align-items: center;
 }
 
 .profile {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    margin-right: 5px;
+    margin-right: 1rem;
 
 }
 
 .logo {
-    font-size: 25px;
-    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #f5edff;
     text-decoration: none;
     cursor: default;
+}
+
+.logo:hover {
+    color:aquamarine
 }
 
 .navbar {
@@ -102,6 +113,14 @@ a {
     text-align: center;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+.name:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
 }
 
 .subtitle {
@@ -139,4 +158,23 @@ a {
 .languages-wrapper ul li {
     list-style: none;
     margin: 0 1rem;
+}
+
+.project-wrapper {
+    margin-top: 6rem;
+    
+}
+
+.project {
+    background-image: linear-gradient( 109.6deg, rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% auto;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    cursor: default;
 }
